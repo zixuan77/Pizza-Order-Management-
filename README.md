@@ -7,8 +7,13 @@ In order to manage pizza orders for this lab, you will design various Pizza clas
 
 
 Pizza.py - Defines a Pizza class representing commonality for all Pizzas. For simplicity, this class will assume all Pizzas have a size and price
+
 CustomPizza.py - Defines a child class of Pizza. This class should inherit all fields / methods from the Pizza class, but also introduces the concepts of toppings a customer can order(represented as a list of strings)
+
 SpecialtyPizza.py - Defines a child class of Pizza. This class should inherit all fields / methods from the Pizza class. Specialty pizzas are defined by a name attribute and all have a set price depending on the pizza size
+
 PizzaOrder.py - Defines a class that is a collection of pizza objects the customer wants to order. The total price for the order can be derived from each individual pizza price. This class will also have an expected time of when the customer would like their pizzas ready for pickup. More details on this later in the writeup
+
 OrderQueue.py - Defines a MinHeap to organize and process Pizza Orders according to their expected time of pickup. You can adapt the Heap implementation shown in the textbook supporting the specifications in this lab.
+
 testFile.py - This file will contain your pytest functions that tests the overall correctness of your class definitions
